@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+*.session
+*.session-journal
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+
+# OpenAI API key
+openai_api_key.txt
+
+# Ignore environment and secret files
+.env
+*key*
+*token*
+*session*
+subscribers.json
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore backup and test scripts
+backup/
+
+# Ignore Railway config (if not needed)
+railway.json
+railway.toml
+
+# Local development
+.DS_Store 
